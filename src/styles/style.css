@@ -670,6 +670,11 @@ a {
 }
 .card-recentprojects .card-description {
   color: var(--text-muted);
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 .card-recentprojects .post-author {
   display: inline-block;
