@@ -24,7 +24,7 @@
     "main_header": "Romeo De&nbsp;Timmerman",
     "main_subtitle": "Doctoral Researcher",
     "intro_bio": [
-      "Hi, I'm Romeo De Timmerman, a linguistics scholar at Ghent University with a profound interest for data science."
+      "Hi, I’m Romeo De Timmerman, a researcher at Ghent University combining sociolinguistic and computational approaches to study language in popular culture."
     ],
     "email_button": "contact me"
   },
@@ -37,14 +37,14 @@
     },
     "headShotUrl": "../assets/portrait.png",
     "bio": [
-      "I obtained my master's degree in English and Dutch linguistics and literature from Ghent University in 2020. Since then, I have worked as a researcher on a one-year FWO-funded research project, and as a full-time language instructor. In November 2022, I started working as a doctoral researcher at Ghent University under supervision of Prof. Dr. Stef Slembrouck (UGent) and Prof. Dr. Matthias Heyman (VUB). My PhD project focuses on the use of African American English by contemporary blues performers, and the social meanings that these stylistic-linguistic practices generate."
+      "I obtained my master’s degree in English and Dutch linguistics and literature from Ghent University in 2020. Since then, I have worked on projects involving language, identity, and media, and have taught at both undergraduate and graduate levels. In 2022, I began my PhD at Ghent University, investigating the stylistic use of African American English by blues performers. More recently, I have expanded my research interests to include computational linguistics, machine learning, and natural language processing. Alongside completing my PhD, I am currently pursuing a master’s in Statistical Data Analysis, with a focus on deep learning and natural language processing."
     ],
     "skills_caption": "",
     "skills": [
-      "Python",
-      "SAS",
-      "R",
-      "SQL"
+      "Python & R",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing"
     ]
   },
   "academics": {
@@ -123,8 +123,24 @@
       {
         "use_git_api": false,
         "api_github_repo_link": "",
-        "project_name": "AAE in Blues: Prediction Model",
-        "description": "Gradient boosted decision tree model trained to predict whether or not blues performers will realize certain features of African American English while singing.",
+        "project_name": "price-monophthongization",
+        "description": "Modeling formant trajectories of PRICE vowels using feature engineering, dimensionality reduction, gradient boosted decision trees, and neural networks. This project applies interpretable machine learning to explore gradient vowel production and categorical perception.",
+        "resources_used": ["Python"],
+        "start_date": "2025",
+        "end_date": "",
+        "links": [
+          {
+            "href": "https://github.com/romeodetimmerman/aae-in-blues-formants",
+            "icon": "FaGithub",
+            "data_tooltip": "Source code"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "",
+        "project_name": "aae-in-blues",
+        "description": "Predicting the presence of African American English features in blues singing using gradient boosted decision trees. This project combines machine learning and sociolinguistics to examine patterns of linguistic variation in musical performance.",
         "resources_used": ["Python"],
         "start_date": "2024",
         "end_date": "",
