@@ -24,7 +24,7 @@
     "main_header": "Romeo De&nbsp;Timmerman",
     "main_subtitle": "Doctoral Researcher",
     "intro_bio": [
-      "Hi, I’m Romeo De Timmerman, a researcher at Ghent University combining sociolinguistic and computational approaches to study language in popular culture."
+      "Hi, I’m Romeo De Timmerman, a researcher at Ghent University combining computational and sociolinguistic approaches to study language variation."
     ],
     "email_button": "contact me"
   },
@@ -37,7 +37,7 @@
     },
     "headShotUrl": "../assets/portrait.png",
     "bio": [
-      "I obtained my master’s degree in English and Dutch linguistics and literature from Ghent University in 2020. Since then, I have worked on projects involving language, identity, and media, and have taught at both undergraduate and graduate levels. In 2022, I began my PhD at Ghent University, investigating the stylistic use of African American English by blues performers. More recently, I have expanded my research interests to include computational linguistics, machine learning, and natural language processing. Alongside completing my PhD, I am currently pursuing a master’s in Statistical Data Analysis, with a focus on deep learning and natural language processing."
+      "I am a doctoral researcher in Linguistics at Ghent University, where I also obtained master's degrees in Linguistics and Statistical Data Analysis. My current research primarily focuses on how well large language models handle linguistically varied input. I will soon join the Department of Computer Science at Columbia University as a postdoctoral researcher, funded by the Belgian American Educational Foundation and the Commission for Educational Exchange between the United States, Belgium and Luxembourg."
     ],
     "skills_caption": "",
     "skills": [
@@ -69,7 +69,7 @@
       },
       {
         "school": "Ghent University",
-        "degree": "Master of Arts in Linguistics and Literature",
+        "degree": "Master of Arts in Linguistics",
         "start_year": 2019,
         "end_year": 2020
       }
@@ -83,6 +83,15 @@
       "description": "Click [here](/assets/Resume.pdf) to view my complete resume."
     },
     "experience_items": [
+      {
+        "organization": "Columbia University",
+        "title": "Postdoctoral Researcher",
+        "start_date": "2026",
+        "end_date": "2027",
+        "description": [
+          "Project on how large language models handle linguistically varied input."
+        ]
+      },
       {
         "organization": "Ghent University",
         "title": "Doctoral Researcher",
@@ -123,6 +132,22 @@
       {
         "use_git_api": false,
         "api_github_repo_link": "",
+        "project_name": "aae-llm-eval",
+        "description": "Evaluating how well Large Language Models (LLMs) handle African American English (AAE) input. The project focuses on two tasks: feature classification and next turn generation. The evaluation dataset comprises authentic dialogue excerpts from CORAAL.",
+        "resources_used": ["Python"],
+        "start_date": "2026",
+        "end_date": "",
+        "links": [
+          {
+            "href": "https://github.com/romeodetimmerman/aae-llm-eval",
+            "icon": "FaGithub",
+            "data_tooltip": "Source code"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "",
         "project_name": "price-monophthongization",
         "description": "Modeling formant trajectories of PRICE vowels using feature engineering, dimensionality reduction, gradient boosted decision trees, and neural networks. This project applies interpretable machine learning to explore gradient vowel production and categorical perception.",
         "resources_used": ["Python"],
@@ -133,6 +158,11 @@
             "href": "https://github.com/romeodetimmerman/aae-in-blues-formants",
             "icon": "FaGithub",
             "data_tooltip": "Source code"
+          },
+          {
+            "href": "https://doi.org/10.1121/10.0044380",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Journal article"
           }
         ]
       },
