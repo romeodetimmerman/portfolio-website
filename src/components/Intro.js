@@ -58,7 +58,7 @@ const Intro = () => {
             </Fade>
             <Fade direction="up" triggerOnce={true}>
               <h3>
-                <a href={`mailto:${generalContent.navbar_social_links.email}`}>
+                <a href={generalContent.navbar_social_links.email}>
                   <FaComment /> {introContent.email_button}
                 </a>
               </h3>
