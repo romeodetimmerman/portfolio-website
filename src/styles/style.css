@@ -1,14 +1,14 @@
 :root {
-  --background-primary: #111111; /* Darker, deeper black */
-  --background-secondary: #1a1a1a; /* Slightly lighter black for subtle contrast */
-  --background-highlight: #222222; /* Highlighted sections, not too contrasting */
+  --background-primary: #1d1b18; /* Warm charcoal */
+  --background-secondary: #262320; /* Slightly lighter warm charcoal for subtle contrast */
+  --background-highlight: #302c28; /* Highlighted sections, not too contrasting */
   
-  --accent-primary: #FFFFFF; /* Bright cyan-blue for vibrant accents */
-  --accent-secondary: #ffb400; /* Golden yellow for an energetic secondary accent */
+  --accent-primary: #FFFFFF; /* White for primary text accents */
+  --accent-secondary: #8fa9c4; /* Dusty blue for links and hover states */
   
   --text-primary: #f0f0f0; /* Bright, readable text on dark background */
   --text-secondary: #bbbbbb; /* Muted gray for secondary text */
-  --text-muted: #888888; /* Subtle muted text */
+  --text-muted: #999999; /* Subtle muted text */
   
   --border-color: #FFFFFF; /* Subtle border for consistency with dark theme */
   
@@ -150,7 +150,7 @@ a {
 }
 
 .subtitle-a a:hover {
-  color: var(--accent-primary);
+  color: var(--accent-secondary);
   transition: color 0.5s ease-in-out;
 }
 
@@ -214,7 +214,7 @@ a {
 }
 
 .about-me-desc strong a:hover {
-  color: #abb2b9;
+  color: var(--accent-secondary);
   text-decoration: none;
 }
 
@@ -433,8 +433,7 @@ a {
 
 .education-extras a {
   text-decoration: none;
-  color: var(--accent-primary);
-  text-shadow: 0 0 10px rgba(187, 153, 85, 0.9);
+  color: var(--accent-secondary);
 }
 
 .education-extras a:hover {
@@ -458,8 +457,7 @@ a {
 }
 
 .resumeButtons a {
-  color: var(--accent-primary);
-  text-shadow: 0 0 5px rgba(187, 153, 85, 0.9);
+  color: var(--accent-secondary);
   padding: 1rem;
 }
 
@@ -525,8 +523,8 @@ a {
 }
 
 .intro_section a:hover {
-  color: var(--accent-primary);
-  border: 1px solid var(--accent-primary);
+  color: var(--accent-secondary);
+  border: 1px solid var(--accent-secondary);
   transition: all 0.3s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
@@ -612,7 +610,7 @@ a {
 }
 
 .post-date a:hover {
-  color: var(--accent-primary);
+  color: var(--accent-secondary);
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -969,14 +967,14 @@ li {
 }
 
 .navlist ul li a:hover {
-  color: #ecf0f1;
+  color: var(--accent-secondary);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
 .linkbar a:hover {
-  color: var(--accent-primary);
+  color: var(--accent-secondary);
   transition: all 0.3s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
@@ -986,7 +984,7 @@ li {
 }
 
 .repo-stats a:hover {
-  color: var(--accent-primary);
+  color: var(--accent-secondary);
   transition: all 0.3s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
@@ -1097,7 +1095,7 @@ footer .credits a {
 }
 
 footer a:hover {
-  color: var(--accent-primary);
+  color: var(--accent-secondary);
   transition: color 0.5s ease-in-out;
 }
 
