@@ -22,9 +22,9 @@
       "enable_section": true
     },
     "main_header": "Romeo De&nbsp;Timmerman",
-    "main_subtitle": "Doctoral Researcher",
+    "main_subtitle": "Postdoctoral Researcher",
     "intro_bio": [
-      "Hi, I’m Romeo De Timmerman, a researcher at Ghent University combining computational and sociolinguistic approaches to study language variation."
+      "Hi, I’m Romeo De Timmerman, a postdoctoral researcher at Columbia University combining computational and sociolinguistic approaches to study language variation."
     ],
     "email_button": "contact me"
   },
@@ -37,14 +37,14 @@
     },
     "headShotUrl": "../assets/portrait.png",
     "bio": [
-      "I am a doctoral researcher in Linguistics at Ghent University, where I also obtained master's degrees in Linguistics and Statistical Data Analysis. My current research primarily focuses on how well large language models handle linguistically varied input. I will soon join the Department of Computer Science at Columbia University as a postdoctoral researcher, funded by the Belgian American Educational Foundation and the Commission for Educational Exchange between the United States, Belgium and Luxembourg."
+      "I am a postdoctoral researcher in computational linguistics at Columbia University, funded by the Belgian American Educational Foundation and the Commission for Educational Exchange between the United States, Belgium and Luxembourg. I combine computational and sociolinguistic approaches to study language variation, with my current work focusing primarily on how well Large Language Models handle linguistically varied input. I hold a PhD in Linguistics from Ghent University, where I also earned an MA in Linguistics and Literature, and an MSc in Statistical Data Analysis."
     ],
     "skills_caption": "",
     "skills": [
-      "Python & R",
+      "Natural Language Processing",
       "Machine Learning",
       "Deep Learning",
-      "Natural Language Processing"
+      "Python & R"
     ]
   },
   "academics": {
@@ -69,7 +69,7 @@
       },
       {
         "school": "Ghent University",
-        "degree": "Master of Arts in Linguistics",
+        "degree": "Master of Arts in Linguistics and Literature",
         "start_year": 2019,
         "end_year": 2020
       }
@@ -107,7 +107,7 @@
         "start_date": "2021",
         "end_date": "2022",
         "description": [
-          "Teaching elective courses on academic English to undergraduate and graduate students."
+          "Teaching undergraduate- and graduate-level courses on academic English."
         ]
       },
       {
